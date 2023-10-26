@@ -8,6 +8,7 @@ class FollowerCell: UICollectionViewCell {
     let usernameLabel = GFTitleLabel(textAlignment: .center, fontSize: 16)
 
     let padding: CGFloat = 8
+    let size: CGFloat = 80
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -30,7 +31,8 @@ class FollowerCell: UICollectionViewCell {
             avatarImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: padding),
             avatarImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: padding),
             avatarImageView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -padding),
-            avatarImageView.heightAnchor.constraint(equalTo: avatarImageView.widthAnchor),
+            avatarImageView.heightAnchor.constraint(equalToConstant: size),
+            avatarImageView.widthAnchor.constraint(equalToConstant: size),
 
             usernameLabel.topAnchor.constraint(equalTo: avatarImageView.bottomAnchor, constant: 12),
             usernameLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: padding),

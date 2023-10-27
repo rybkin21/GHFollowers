@@ -8,7 +8,7 @@ class FollowerCell: UICollectionViewCell {
     let usernameLabel = GFTitleLabel(textAlignment: .center, fontSize: 16)
 
     let padding: CGFloat = 8
-    let size: CGFloat = 80
+    let size: CGFloat = 100
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -21,6 +21,7 @@ class FollowerCell: UICollectionViewCell {
 
     func set(follower: Follower) {
         usernameLabel.text = follower.login
+        avatarImageView.downloadImage(from: follower.avatarUrl)
     }
 
     private func configure() {

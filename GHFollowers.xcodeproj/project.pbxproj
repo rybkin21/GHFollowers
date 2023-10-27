@@ -26,6 +26,7 @@
 		B4A4AD552AEAC691002A4ED6 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4AD542AEAC691002A4ED6 /* FollowerCell.swift */; };
 		B4A4AD572AEAC714002A4ED6 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A4AD562AEAC714002A4ED6 /* GFAvatarImageView.swift */; };
 		B4CA2DEC2AAA4C590092808D /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CA2DEB2AAA4C590092808D /* FollowerListVC.swift */; };
+		B4CD2BF52AEC097B0032E7CE /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CD2BF42AEC097B0032E7CE /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		B4A4AD542AEAC691002A4ED6 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		B4A4AD562AEAC714002A4ED6 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		B4CA2DEB2AAA4C590092808D /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		B4CD2BF42AEC097B0032E7CE /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				B4A4AD512AEABB3D002A4ED6 /* ErrorMessage.swift */,
+				B4CD2BF42AEC097B0032E7CE /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				B444D6752AA602CF00A71E53 /* SearchVC.swift in Sources */,
 				B4A4AD432AE97594002A4ED6 /* UIViewController + Ext.swift in Sources */,
 				B411C4882AA7664B00D563EA /* GFButton.swift in Sources */,
+				B4CD2BF52AEC097B0032E7CE /* UIHelper.swift in Sources */,
 				B4A4AD572AEAC714002A4ED6 /* GFAvatarImageView.swift in Sources */,
 				B482E61E2AA10DB200C567DD /* AppDelegate.swift in Sources */,
 				B4A4AD412AE966CB002A4ED6 /* GFAlertVC.swift in Sources */,

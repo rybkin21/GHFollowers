@@ -1,9 +1,3 @@
-//
-//  GFButton.swift
-//  GHFollowers
-//
-//  Created by Ivan Rybkin on 05.09.2023.
-//
 
 import UIKit
 
@@ -30,5 +24,10 @@ class GFButton: UIButton {
         setTitleColor(.white, for: .normal)
         titleLabel?.font = UIFont.preferredFont(forTextStyle: .headline)
         translatesAutoresizingMaskIntoConstraints = false
+    }
+
+    func set(background: UIColor, title: String) {
+        self.backgroundColor = background
+        setTitle(title, for: .normal)
     }
 }

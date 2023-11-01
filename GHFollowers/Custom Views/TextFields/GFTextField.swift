@@ -1,9 +1,3 @@
-//
-//  GFTextField.swift
-//  GHFollowers
-//
-//  Created by Ivan Rybkin on 05.09.2023.
-//
 
 import UIKit
 
@@ -35,7 +29,7 @@ class GFTextField: UITextField {
         backgroundColor = .tertiarySystemBackground
         autocorrectionType = .no
         returnKeyType = .go
-
+        clearButtonMode = .whileEditing
         placeholder = "Enter a username"
     }
 }

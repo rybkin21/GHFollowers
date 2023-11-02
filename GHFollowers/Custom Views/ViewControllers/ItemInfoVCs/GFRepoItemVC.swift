@@ -34,4 +34,3 @@ class GFRepoItemVC: GFItemInfoVC {
         delegate.didTapGitHubProfile(for: user)
     }
 }
-

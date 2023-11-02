@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B411C4882AA7664B00D563EA /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B411C4872AA7664B00D563EA /* GFButton.swift */; };
 		B411C48A2AA7682700D563EA /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B411C4892AA7682700D563EA /* GFTextField.swift */; };
+		B43BA6332AF3DB8F00BAF952 /* UIView + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43BA6322AF3DB8F00BAF952 /* UIView + Ext.swift */; };
 		B444D6752AA602CF00A71E53 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B444D6742AA602CF00A71E53 /* SearchVC.swift */; };
 		B444D6772AA6031B00A71E53 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B444D6762AA6031B00A71E53 /* FavoritesListVC.swift */; };
 		B460D0312AF29E93002AADFC /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B460D0302AF29E93002AADFC /* GFTabBarController.swift */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		B411C4872AA7664B00D563EA /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		B411C4892AA7682700D563EA /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		B43BA6322AF3DB8F00BAF952 /* UIView + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Ext.swift"; sourceTree = "<group>"; };
 		B444D6742AA602CF00A71E53 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		B444D6762AA6031B00A71E53 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		B460D0302AF29E93002AADFC /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 			children = (
 				B4A4AD422AE97594002A4ED6 /* UIViewController + Ext.swift */,
 				B49A60442AF13E9A007A8907 /* Date + Ext.swift */,
+				B43BA6322AF3DB8F00BAF952 /* UIView + Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				B4A4AD522AEABB3D002A4ED6 /* GFError.swift in Sources */,
 				B49A60362AED7952007A8907 /* GFUserInfoHeaderVC.swift in Sources */,
 				B460D0352AF2BF07002AADFC /* GFDataLoadingVC.swift in Sources */,
+				B43BA6332AF3DB8F00BAF952 /* UIView + Ext.swift in Sources */,
 				B4A4AD3F2AE965C5002A4ED6 /* GFBodyLabel.swift in Sources */,
 				B460D0332AF2A971002AADFC /* GFAlertContainerView.swift in Sources */,
 				B4A4AD4A2AEA975B002A4ED6 /* Follower.swift in Sources */,

@@ -35,7 +35,6 @@ class GFDataLoadingVC: UIViewController {
     }
 
     func showEmptyStateView(with message: String, in view: UIView) {
-        let searchVC = UISearchController()
         navigationItem.searchController?.searchBar.isHidden = true
         let emptyStateView = GFEmptyStateView(message: message)
         emptyStateView.frame = view.bounds

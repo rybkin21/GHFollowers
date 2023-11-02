@@ -10,7 +10,6 @@ class GFTabBarController: UITabBarController {
         tabBar.backgroundColor = .systemGray4.withAlphaComponent(0.3)
     }
 
-
     func createSearchNC() -> UINavigationController {
         let searchVC = SearchVC()
         searchVC.title = "Search"
